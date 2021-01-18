@@ -38,4 +38,6 @@ RUN set -eo pipefail \
       && make \
       && make install
 
-ENTRYPOINT ["/usr/local/bin/samtools"]
+#ENTRYPOINT ["/usr/local/bin/samtools"]
+
+CMD ["/bin/bash"]
